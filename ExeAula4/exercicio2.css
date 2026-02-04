@@ -1,0 +1,14 @@
+.meunome {
+    font-family: Verdana;
+    font-size: 50pt;
+    background: black;
+    color: white;
+    width: 500px;
+    height: 200px;
+    border-radius: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    text-align: center;
+}

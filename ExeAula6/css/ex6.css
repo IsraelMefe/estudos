@@ -1,0 +1,23 @@
+body{
+    font-family:Arial;
+    margin:16px
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+    margin-top:12px
+}
+td,th{
+    border:1px solid #bbb;
+    padding:6px
+}
+.aprovado{
+    background:#d4ffd4
+}
+.reprovado{
+    background:#ffd4d4
+}
+.avaliacao{
+    background:#fff2cc
+}
+    

@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#saidaEx1 table {
+  background: #CCCCCC;
+  border-collapse: collapse;
+}
+
+#saidaEx1 th {
+  font-size: 15px;
+  font-weight: 700;
+  background: #000033;
+  color: #CCCCCC;
+  padding: 8px;
+}
+
+#saidaEx1 td {
+  font-size: 14px;
+  background: #000066;
+  color: #CCCCCC;
+  padding: 8px;
+}

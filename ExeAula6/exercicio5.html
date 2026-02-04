@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Exercício 5</title>
+<link rel="stylesheet" href="css/ex5.css">
+</head>
+<body>
+  <button class="tabBtn" data-target="aba1">Cronômetro</button>
+  <button class="tabBtn" data-target="aba2">SlideShow</button>
+  <button class="tabBtn" data-target="aba3">Tabuada</button>
+
+  <div id="aba1" class="aba">
+    <div id="cron">0 s</div>
+    <button id="startCron">Iniciar</button>
+  </div>
+
+  <div id="aba2" class="aba" style="display:none">
+    <img id="slideImg" style="max-width:400px">
+    <br>
+    <button id="prevSlide">Anterior</button>
+    <button id="nextSlide">Próximo</button>
+  </div>
+
+  <div id="aba3" class="aba" style="display:none">
+    <input id="tabNum" type="number" placeholder="Número">
+    <button id="btnTab">Mostrar tabuada</button>
+    <div id="saidaTab"></div>
+  </div>
+
+<script src="js/ex5.js"></script>
+</body>
+</html>

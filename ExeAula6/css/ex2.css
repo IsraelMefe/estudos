@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#saidaEx2 table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#saidaEx2 td {
+  padding: 10px;
+  border: none;
+  color: #000;
+}
